@@ -78,7 +78,7 @@ for y in range(len(music_name)):
            # print(r2.content)
                       
             try:
-                path = "C:/Users/caios/Desktop/teste_musica/"
+                path = "/Desktop/teste_musica/"
                 os.mkdir(path, 777)     #
             except FileExistsError:
                 pass
